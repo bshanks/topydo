@@ -723,7 +723,7 @@ class UIApplication(CLIApplicationBase):
             try:
                 self.mainloop.run()
             except KeyboardInterrupt:
-                self._print_to_console("Use the 'quit' command to exit topydo.")
+                self._print_to_console("Type ':quit' to exit topydo.")
 
 if __name__ == '__main__':
     UIApplication().run()
